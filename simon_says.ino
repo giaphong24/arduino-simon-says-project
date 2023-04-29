@@ -1,21 +1,20 @@
-/*This sketch is a simple version of the famous Simon Says game. You can  use it and improved it adding
-levels and everything you want to increase the  diffuculty!
+/*This sketch is a simple version of the famous Simon Says game.
 
-There are five buttons connected to A0, A1, A2, A3 and A4.
-The  buttons from A0 to A3 are used to insert the right sequence while A4 to start the  game.
+There are five buttons connected to A0, A1, A2, and A3. SDA and SCL pins of the LCD I2C module are connected to A4 and A5 pins.
+The  buttons from A0 to A3 are used to insert the right sequence.
 
-When a wrong sequence is inserted all the leds will blink for three  time very fast otherwhise the
-inserted sequence is correct.
+When a wrong sequence is inserted all the leds will light up while the buzzer is playing the game over music
 
 Hardware needed:
-5x  pushbuttons
+4x  pushbuttons
 1x Blue led
 1x Yellow led
 1x Red led
 1x Green Led
+1x buzzer
+1x LCD 16x02 with I2C module
 4x  1k resistors
 4x 10k resisors
-10x jumpers
 */
 
 #include <Wire.h>
