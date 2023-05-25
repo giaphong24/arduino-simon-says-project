@@ -1,7 +1,7 @@
 /* Fill-in information from Blynk Device Info here */
-#define BLYNK_TEMPLATE_ID       "TMPL60zy5aqJW"
+#define BLYNK_TEMPLATE_ID       "TEMPLATE_ID"
 #define BLYNK_TEMPLATE_NAME     "Simple Simon Say project"
-#define BLYNK_AUTH_TOKEN        "3PTbJrSHW3N3hPcnGybFcN9hFiavBCv7"
+#define BLYNK_AUTH_TOKEN        "AUTH_TOKEN"
 
 /* Comment this out to disable prints and save space */
 #define BLYNK_PRINT Serial
@@ -15,12 +15,12 @@
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Tenda_AV-TT";
-char pass[] = "tramta15031972";
+char ssid[] = "INSERT_WIFI_NAME_HERE";
+char pass[] = "WIFI_PASSWORD";
 
 // for Thingspeak
-unsigned long channelID = 2157332;
-const char* apiKey = "3BFCB4I0KRU8DH57";
+unsigned long channelID = ...;
+const char* apiKey = "APIKEY";
 
 #define NOTE_C3  131
 #define NOTE_G3  196
