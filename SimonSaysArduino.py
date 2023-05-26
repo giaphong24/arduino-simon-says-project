@@ -8,7 +8,7 @@ time.sleep(1)
 
 # ThingSpeak parameters
 base_url = "https://api.thingspeak.com/update"
-api_key = "3BFCB4I0KRU8DH57"
+api_key = "YOUR_API_KEY"
 
 while True:
     while DataSerial.inWaiting() == 0:
