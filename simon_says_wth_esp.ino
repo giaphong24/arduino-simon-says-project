@@ -13,7 +13,6 @@
 
 #include <ThingSpeak.h>
 
-// Your WiFi credentials.
 // Set password to "" for open networks.
 char ssid[] = "INSERT_WIFI_NAME_HERE";
 char pass[] = "WIFI_PASSWORD";
