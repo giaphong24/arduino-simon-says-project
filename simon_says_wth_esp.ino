@@ -183,7 +183,6 @@ BLYNK_WRITE(V4) {
 
 void blynkUpdate() {
   Blynk.run();
-  // Additional Blynk-related code or functionality can be added here
 }
 
 void  show_sequence()   // show a different sequence for each level
